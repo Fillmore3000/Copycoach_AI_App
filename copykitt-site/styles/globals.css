@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply bg-white;
+
+}
+.bg-slate-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(232 266 266 / var(--tw-bg-opacity)) !important;
+}
+.bg-slate-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(044 105 155 / var(--tw-bg-opacity)) !important;
+}
+.text-slate-400 {
+  --tw-text-opacity: 1;
+  color: rgb(153 246 228 / var(--tw-text-opacity)) !important;
+}
+html {
+  
+  font-family:sans-serif, "Helvetica Neue","Noto Sans" !important;
+}
