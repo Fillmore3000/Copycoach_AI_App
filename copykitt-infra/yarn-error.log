@@ -1,0 +1,63 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\hapaw\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add dontenv
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Oculus\Support\oculus-runtime;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Users\hapaw\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\hapaw\.local\share\solana\install\active_release\bin;C:\Ruby27-x64\bin;C:\Users\hapaw\.windows-build-tools\python27\;C:\NVPACK\android-sdk-windows\extras\android\support;C:\NVPACK\android-sdk-windows\build-tools;C:\NVPACK\android-sdk-windows\tools;C:\NVPACK\gradle-4.4.1\bin;C:\NVPACK\jdk1.8.0_77\bin;C:\NVPACK\android-ndk-r18b;C:\Users\hapaw\AppData\Local\Microsoft\WindowsApps;C:\Users\hapaw\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\hapaw\.dotnet\tools;C:\NVPACK\android-sdk-windows\platform-tools;C:\Users\hapaw\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\hapaw\AppData\Local\Microsoft\WindowsApps;C:\Users\hapaw\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/dontenv: Not found
+      at Request.params.callback [as _callback] (C:\Users\hapaw\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66138:18)
+      at Request.self.callback (C:\Users\hapaw\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140883:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (C:\Users\hapaw\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141855:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (C:\Users\hapaw\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141777:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "copykitt-infra",
+    "version": "0.1.0",
+    "bin": {
+      "copykitt-infra": "bin/copykitt-infra.js"
+    },
+    "scripts": {
+      "build": "tsc",
+      "watch": "tsc -w",
+      "test": "jest",
+      "cdk": "cdk"
+    },
+    "devDependencies": {
+      "@types/jest": "^27.5.2",
+      "@types/node": "10.17.27",
+      "@types/prettier": "2.6.0",
+      "jest": "^27.5.1",
+      "ts-jest": "^27.1.4",
+      "aws-cdk": "2.31.1",
+      "ts-node": "^10.8.1",
+      "typescript": "~3.9.7"
+    },
+    "dependencies": {
+      "aws-cdk-lib": "2.31.1",
+      "constructs": "^10.0.0",
+      "source-map-support": "^0.5.21"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
